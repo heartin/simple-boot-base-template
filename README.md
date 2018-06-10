@@ -48,3 +48,7 @@ Later,
 1. Update contents of the readme file.
 1. Run './mvnw clean compile' to make sure everything is fine.
 1. Commit and push new changes
+
+
+## Option 4
+Clone project to local and copy paste manually into a new project and refactor as necessary.
