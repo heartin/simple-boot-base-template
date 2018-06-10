@@ -51,4 +51,4 @@ Later,
 
 
 ## Option 4
-Clone project to local and copy paste manually into a new project and refactor as necessary.
+Clone project to local, copy paste manually into a new project and refactor as necessary.
