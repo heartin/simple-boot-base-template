@@ -1,6 +1,6 @@
 # Simple Boot Base Template (Starter Template)
 
-This is a quick template for creating a base project based on simple-boot-parent-java.
+This is a quick template for creating a base project based on `simple-boot-parent-java`.
 You may change parent to `parent-java-web-jpa` if you need to create a web project based on Rest and JPA.
 
 You may follow one of the below options to make a copy of this repository and start working. **IMP!** Make sure you change the readme file.
