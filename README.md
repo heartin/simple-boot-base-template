@@ -38,7 +38,7 @@ git clone --bare https://github.com/heartin/simple-boot-base-template.git
 cd simple-boot-base-template
 git push --mirror https://github.com/<user>/<new-repository>.git
 ```
-Substitute <user> and <new-repository> with actual user and new repository name.
+Substitute `<user>` and `<new-repository>` with actual user and new repository name.
 Reference: https://help.github.com/articles/duplicating-a-repository/
 
 Later,
