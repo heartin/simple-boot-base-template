@@ -1,14 +1,52 @@
-# Simple Starter Base Template
+# Simple Boot Base Template (Starter Template)
 
 This is a quick template for creating a base project based on simple-boot-parent-java.
+You may change parent to parent-java-web-jpa if you need to create a web project based on Rest and JPA.
 
-**IMP!** Make sure you change this readme file.
+You may follow one of the below options to make a copy of this repository and start working.
 
-Steps to use this template project:
-1. Clone this project and run './mvnw clean compile'
-1. Copy paste the directory and change home folder to required name.
-1. Open the new folder in an IDE (e.g. Intellij IDEA, Eclipse)
-1. Use Refactor option to change module name, package and Application name.
+## Option 1
+1. Fork repository
+1. Change repository name
+1. Clone the new repository to local
+1. Use Refactor option in IDEs to change module name, package and Application name.
 1. Update POM file.
 1. Update contents of the readme file.
 1. Run './mvnw clean compile' to make sure everything is fine.
+1. Commit and push new changes
+
+
+## Option 2
+1. git clone https://github.com/heartin/simple-boot-base-template
+1. cd simple-boot-base-template <br>
+Note: You may change the folder name and then do cd into that folder: <br>
+mv simple-boot-base-template <new-repository-name>
+cd <new-repository-name>
+1. git remote set-url origin <new-repo-url>
+1. git push origin master
+Note: You may also make changes and then push using the above command in the end.
+1. Use Refactor option in IDEs to change module name, package and Application name.
+1. Update POM file.
+1. Update contents of the readme file.
+1. Run './mvnw clean compile' to make sure everything is fine.
+1. Commit and push new changes
+
+
+## Option 3
+```
+git clone --bare https://github.com/heartin/simple-boot-base-template.git
+cd simple-boot-base-template
+git push --mirror https://github.com/<user>/<new-repository>.git
+```
+Substitute <user> and <new-repository> with actual user and new repository name.
+Reference: https://help.github.com/articles/duplicating-a-repository/
+
+Later,
+1. Clone new repo.
+1. Use Refactor option in IDEs to change module name, package and Application name.
+1. Update POM file.
+1. Update contents of the readme file.
+1. Run './mvnw clean compile' to make sure everything is fine.
+1. Commit and push new changes
+
+**IMP!** Make sure you change this readme file.
